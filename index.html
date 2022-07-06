@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" 
+    crossorigin="anonymous">
+    <!-- css -->    
+    <link rel="stylesheet" href="../style.css">
+    <title>Home</title>
+</head>
+
+<body class=" bg-lihgt">
+    <!--encabezado-->
+    <header>
+          <nav class="navbar navbar-expand-lg bg-info">
+             <div class="container-fluid">
+
+                       <a class="navbar-brand" href="#">ARTISTEANDO</a>
+                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse"    data-bs-target="#navbarNav"  
+                       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                       <span class="navbar-toggler-icon"></span>
+                       </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+
+                         <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./page/galeria.html">Galeria</a></li>
+
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./page/servicios.html">Servicios</a></li>
+
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./page/contacto.html">contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+          </nav>
+    </header>
+    <!-- carrousel -->
+    <section class="container-fluid col-lg-9">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                        </div>
+
+                        <div class="carousel-inner">
+                         <div class="carousel-item active">
+                        <img src="../multimedia/bootsimg1.jpg" class="d-block w-100" alt="bootsimg1">
+                        </div>
+
+                        <div class="carousel-item">
+                        <img src="../multimedia/bootsimg2.jpg" class="d-block w-100" alt="bootsimg2">
+                        </div>
+
+                        <div class="carousel-item">
+                        <img src="../multimedia/bootsimg3.jpg" class="d-block w-100" alt="bootsimg3">
+                        </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                        </button>
+
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                        </button>
+            </div>
+     </section>
+    <!--intro del carousel -->
+     <section class="w-50 mx-auto text-center pt-5" id="intro">
+                        <h1 class="p-3 fs-2 border-top bordert-3">Una empresa de Artistas que crea lo que vos queres.<span
+                        class="text-primary"> ARTISTEANDO</span></h1>
+                        <p class="p-3 fs-4"><span class="text-primary">Decoracion... </span>Nuestros profecionales te guiaran, a la hora de
+                        querer decorar tu hogar, la oficina, o un obsequio, que mas de uno se va a
+                        sorprender.</p>
+    </section>
+    <section class="container-fluid">
+        <div class="row e-75 mx-auto my-5 servicio-fila">
+
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <img src="../multimedia/icono1.png" alt="icono1" width="180" height="160">
+                        <div>
+                        <h3 class="fs-5 mt-4 px-4 pb-1">desarrolo</h3>
+                        <p class="px-4">Nuestros trabajos a la hora de desarrolar una obra, siempre pensando el deseo del
+                        cliente</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                       <img src="../multimedia/icono2.png" alt="icono2" width="180" height="160">
+                       <div>
+                       <h3 class="fs-5 mt-4 px-4 pb-1">Materiales</h3>
+                       <p class="px-4">A la hora de trabajar, elegimos los mejores materiales que se adapten a las obras que han pedido nuestros clientes.</p>
+                       </div>
+                    </div>
+        </div>
+    </section>
+    <footer>
+             <ul>
+                    <li>
+                    <a href="https://www.facebook.com/Artisteando">Facebook</a>
+                    </li>
+                    <li>
+                    <a href="https://www.twtter.com/Artisteando">Twitter</a>
+                    </li>
+                    <li>
+                    <a href="https://www.instagram.com/Artisteando">Instagram</a>
+                    </li>
+             </ul>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+    </body>
+    
+    </html>
